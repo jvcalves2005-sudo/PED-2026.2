@@ -1,0 +1,27 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+
+
+int main()
+{
+
+	int x, y, resultado;
+
+	printf("Coloque 2 numeros para realizar a soma: \n");
+
+	scanf("%i",&x);
+	scanf("%i",&y);
+
+	resultado = x + y;
+
+	printf("%i",resultado);
+
+}
